@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://betowh13.github.io/how-to-get-rid-of-earwigs-2025-02-04-mdpq2/sitemap.xml
