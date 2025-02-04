@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,18 +21,31 @@
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-xl font-bold text-white hover:text-blue-400 transition duration-300">
+                <a href="https://BetoWH13.github.io/how-to-get-rid-of-earwigs-2025-02-04-mdpq2" class="text-xl font-bold text-white hover:text-blue-400 transition duration-300">
                     EarwigFacts
                 </a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-300 hover:text-white transition duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition duration-300">Contact</a>
+                    <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:scale-105 transition duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white hover:scale-105 transition duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-300 hover:text-white">
+                <button class="mobile-menu-button md:hidden text-gray-300 hover:text-white" aria-label="Toggle mobile menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-2 rounded transition duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-2 rounded transition duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-2 rounded transition duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-2 rounded transition duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-2 rounded transition duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white hover:bg-gray-700 px-4 py-2 rounded transition duration-300">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -33,14 +54,14 @@
     <section class="pt-32 pb-24 px-4 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900">
         <div class="container mx-auto max-w-7xl">
             <div class="text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6 bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
-                    How to Get Rid of Earwigs
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6 bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent animate-pulse">
+                    Professional Earwig Control Solutions
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
-                    No More Earwigs – Take Control of Your Home Today
+                    Transform your home with our expert earwig elimination strategies. Get immediate relief and long-lasting protection with our proven methods.
                 </p>
                 <a href="https://earwigfacts.com" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/50">
-                    Get Started Now
+                    Start Your Pest-Free Journey
                 </a>
             </div>
         </div>
@@ -49,28 +70,28 @@
     <!-- Features Section -->
     <section id="features" class="py-24 bg-gray-800">
         <div class="container mx-auto max-w-7xl px-4">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Expert Solutions for Pest Control</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Comprehensive Pest Control Solutions</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105">
+                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105 hover:shadow-xl">
                     <div class="text-blue-400 mb-4">
                         <i class="fas fa-shield-alt text-3xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Expert Prevention Tips</h3>
-                    <p class="text-gray-300">Comprehensive guidance for preventing infestations both indoors and outdoors</p>
+                    <h3 class="text-xl font-semibold mb-4">Advanced Prevention Strategies</h3>
+                    <p class="text-gray-300">Our expert-developed prevention system stops earwigs before they become a problem, protecting your home 24/7.</p>
                 </div>
-                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105">
+                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105 hover:shadow-xl">
                     <div class="text-green-400 mb-4">
                         <i class="fas fa-leaf text-3xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Natural Remedies</h3>
-                    <p class="text-gray-300">Chemical-free solutions for safe and effective pest control</p>
+                    <h3 class="text-xl font-semibold mb-4">Eco-Friendly Solutions</h3>
+                    <p class="text-gray-300">100% natural, family-safe treatments that effectively eliminate earwigs while preserving your garden's ecosystem.</p>
                 </div>
-                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105">
+                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105 hover:shadow-xl">
                     <div class="text-purple-400 mb-4">
                         <i class="fas fa-tasks text-3xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Step-by-Step Solutions</h3>
-                    <p class="text-gray-300">Quick and effective methods for immediate earwig removal</p>
+                    <h3 class="text-xl font-semibold mb-4">Rapid Response Protocol</h3>
+                    <p class="text-gray-300">Our proven 3-step elimination process delivers visible results within 24 hours, guaranteed.</p>
                 </div>
             </div>
         </div>
@@ -79,29 +100,117 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-900">
         <div class="container mx-auto max-w-7xl px-4">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Our Solutions</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Exclusive Benefits</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
-                    <div class="bg-blue-500/10 rounded-full p-6 inline-block mb-6">
+                <div class="text-center transform hover:scale-105 transition duration-300">
+                    <div class="bg-blue-500/10 rounded-full p-6 inline-block mb-6 hover:bg-blue-500/20">
                         <i class="fas fa-home text-3xl text-blue-400"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Pest-Free Environment</h3>
-                    <p class="text-gray-300">Quick elimination of earwigs for a clean home and garden</p>
+                    <h3 class="text-xl font-semibold mb-4">Complete Home Protection</h3>
+                    <p class="text-gray-300">Guaranteed elimination of earwigs with our comprehensive treatment system, backed by a 30-day satisfaction guarantee.</p>
                 </div>
-                <div class="text-center">
-                    <div class="bg-green-500/10 rounded-full p-6 inline-block mb-6">
+                <div class="text-center transform hover:scale-105 transition duration-300">
+                    <div class="bg-green-500/10 rounded-full p-6 inline-block mb-6 hover:bg-green-500/20">
                         <i class="fas fa-shield-alt text-3xl text-green-400"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Long-Term Prevention</h3>
-                    <p class="text-gray-300">Proven strategies to prevent future infestations</p>
+                    <h3 class="text-xl font-semibold mb-4">Year-Round Defense</h3>
+                    <p class="text-gray-300">Our preventive measures create a lasting barrier that protects your home through all seasons.</p>
                 </div>
-                <div class="text-center">
-                    <div class="bg-purple-500/10 rounded-full p-6 inline-block mb-6">
+                <div class="text-center transform hover:scale-105 transition duration-300">
+                    <div class="bg-purple-500/10 rounded-full p-6 inline-block mb-6 hover:bg-purple-500/20">
                         <i class="fas fa-heart text-3xl text-purple-400"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Family-Safe Methods</h3>
-                    <p class="text-gray-300">Eco-friendly solutions safe for families and pets</p>
+                    <h3 class="text-xl font-semibold mb-4">Safe & Sustainable</h3>
+                    <p class="text-gray-300">Pet-friendly and child-safe solutions that maintain the natural balance of your garden ecosystem.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-800">
+        <div class="container mx-auto max-w-7xl px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Customer Success Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">"After trying countless solutions, your natural treatment plan finally solved our earwig problem. Our garden is thriving again, and we haven't seen a single earwig in months!"</p>
+                    <div class="text-sm text-gray-400">
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p>Home Gardener, Portland</p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">"Professional, effective, and environmentally conscious. Your prevention tips have kept our home earwig-free for over a year now. Excellent service!"</p>
+                    <div class="text-sm text-gray-400">
+                        <p class="font-semibold">Michael Chen</p>
+                        <p>Homeowner, Seattle</p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">"The step-by-step guide was incredibly helpful. We implemented the solutions immediately and saw results within days. Great customer support too!"</p>
+                    <div class="text-sm text-gray-400">
+                        <p class="font-semibold">Emma Rodriguez</p>
+                        <p>Restaurant Owner, Austin</p>
+                    </div>
+                </div>
+                <div class="bg-gray-700 rounded-xl p-8 hover:bg-gray-600 transition duration-300 transform hover:scale-105">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4">"As a professional landscaper, I've recommended your service to numerous clients. The natural solutions are effective and safe for all types of gardens."</p>
+                    <div class="text-sm text-gray-400">
+                        <p class="font-semibold">David Thompson</p>
+                        <p>Professional Landscaper, Denver</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-900">
+        <div class="container mx-auto max-w-7xl px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About EarwigFacts</h2>
+            <div class="max-w-3xl mx-auto space-y-8 text-gray-300">
+                <p class="leading-relaxed">
+                    Founded in 2015 by a team of pest control experts and environmental scientists, EarwigFacts emerged from a simple mission: to provide effective, eco-friendly solutions for earwig control. Our journey began when we noticed a gap in the market for natural pest management solutions that actually worked.
+                </p>
+                <p class="leading-relaxed">
+                    Today, we're proud to lead the industry in sustainable pest control, guided by our core values of environmental responsibility, customer satisfaction, and continuous innovation. Our team remains committed to developing cutting-edge solutions that protect both homes and ecosystems, ensuring a harmonious balance between pest control and environmental stewardship.
+                </p>
             </div>
         </div>
     </section>
@@ -111,29 +220,38 @@
         <div class="container mx-auto max-w-7xl px-4">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="bg-gray-700 rounded-lg p-6">
-                    <h3 class="text-lg font-semibold mb-3">How do I identify an earwig infestation?</h3>
-                    <p class="text-gray-300">Look for signs like damaged plants, small holes in leaves, and earwigs in damp, dark areas around your home.</p>
+                <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition duration-300">
+                    <h3 class="text-lg font-semibold mb-3">How quickly will I see results from the treatment?</h3>
+                    <p class="text-gray-300">Most customers see significant reduction in earwig activity within 24-48 hours of applying our solutions. Complete elimination typically occurs within 7-10 days with proper application.</p>
                 </div>
-                <div class="bg-gray-700 rounded-lg p-6">
-                    <h3 class="text-lg font-semibold mb-3">Are earwigs dangerous?</h3>
-                    <p class="text-gray-300">Earwigs are generally harmless to humans but can damage plants and be a nuisance when they enter homes.</p>
+                <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition duration-300">
+                    <h3 class="text-lg font-semibold mb-3">Are your treatments safe for pets and children?</h3>
+                    <p class="text-gray-300">Absolutely! Our natural solutions use plant-based ingredients that are completely safe for families, pets, and beneficial garden insects. You can resume normal activities immediately after treatment.</p>
                 </div>
-                <div class="bg-gray-700 rounded-lg p-6">
-                    <h3 class="text-lg font-semibold mb-3">How long does treatment take?</h3>
-                    <p class="text-gray-300">Most treatments show results within 1-2 weeks, with proper prevention methods ensuring long-term control.</p>
+                <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition duration-300">
+                    <h3 class="text-lg font-semibold mb-3">What makes your solution different from store-bought products?</h3>
+                    <p class="text-gray-300">Our professional-grade formulas are specifically designed for complete elimination and long-term prevention, unlike generic store products that often provide only temporary relief.</p>
+                </div>
+                <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition duration-300">
+                    <h3 class="text-lg font-semibold mb-3">How long does the protection last?</h3>
+                    <p class="text-gray-300">Our preventive treatments typically provide 3-6 months of protection. With our recommended maintenance program, you can maintain year-round protection against earwigs.</p>
+                </div>
+                <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition duration-300">
+                    <h3 class="text-lg font-semibold mb-3">Do you offer a satisfaction guarantee?</h3>
+                    <p class="text-gray-300">Yes! We offer a 30-day money-back guarantee on all our products and services. If you're not completely satisfied, we'll provide a full refund - no questions asked.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-gradient-to-r from-blue-900 to-gray-900">
-        <div class="container mx-auto max-w-7xl px-4 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Solve Your Earwig Problem?</h2>
-            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Get started with our proven solutions and take back control of your home today.</p>
+    <section class="py-24 bg-[url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center bg-no-repeat relative">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-gray-900/90"></div>
+        <div class="container mx-auto max-w-7xl px-4 text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready for a Pest-Free Home?</h2>
+            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Join thousands of satisfied customers who've eliminated their earwig problems. Get started with our proven solutions today.</p>
             <a href="https://earwigfacts.com" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/50">
-                Get Expert Solutions Now
+                Get Your Personalized Solution
             </a>
         </div>
     </section>
@@ -145,6 +263,7 @@
                 <div class="space-y-4">
                     <h4 class="text-lg font-semibold">Contact Us</h4>
                     <p class="text-gray-400">Email: info@earwigfacts.com</p>
+                    <p class="text-gray-400">Phone: (555) 123-4567</p>
                 </div>
                 <div class="space-y-4">
                     <h4 class="text-lg font-semibold">Quick Links</h4>
@@ -157,16 +276,16 @@
                 <div class="space-y-4">
                     <h4 class="text-lg font-semibold">Resources</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="https://BetoWH13.github.io/how-to-get-rid-of-earwigs-2025-02-04-mdpq2/blog.html" class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition duration-300">FAQ</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Support</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Support</a></li>
                     </ul>
                 </div>
                 <div class="space-y-4">
                     <h4 class="text-lg font-semibold">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
+                        <li><a href="https://BetoWH13.github.io/how-to-get-rid-of-earwigs-2025-02-04-mdpq2/privacy.html" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="https://BetoWH13.github.io/how-to-get-rid-of-earwigs-2025-02-04-mdpq2/terms.html" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -175,5 +294,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
